@@ -143,13 +143,12 @@
                     </a>
                 </nav>
                 <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                    <a href="{{ route('login') }}"
-                        class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+                    <x-buttons.white href="{{ route('login') }}">
                         Login
-                    </a>
-                    <x-botoes.primario href="{{ route('register') }}">
+                    </x-buttons.white>
+                    <x-buttons.primary href="{{ route('register') }}">
                         Cadastre-se
-                    </x-botoes.primario>
+                    </x-buttons.primary>
                 </div>
             </div>
 
